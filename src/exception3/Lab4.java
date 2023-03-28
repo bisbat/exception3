@@ -14,9 +14,10 @@ public class Lab4 {
         catch (ArithmeticException ex) {
             System.out.println("ArithmeticException");
             }
-//        catch (RuntimeException ex) {
-//            System.out.println("RuntimeException");
-//            }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException e");
+            throw new RuntimeException();
+            }
 //        catch (Exception ex) {
 //            System.out.println("Exception");
 //            }
